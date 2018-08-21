@@ -13,7 +13,7 @@ public class BBBProduct {
 		product1.setName("Bathing tub");
 		product1.setDiscription("Use for bathing purpose");
 		product1.setPrice(100);
-		product1.setCategory((Category)new Bath());
+		product1.setCategory((Category)new Bath());  // category will provide discount and reward points 
 		
 		
 		Product product2 = new Product();
