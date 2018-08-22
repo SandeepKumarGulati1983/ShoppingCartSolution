@@ -34,7 +34,7 @@ public class ShopingCart {
 	double totalPrice = 0;
 	double totalTax = 0;
 
-	ShopingCart() {
+	public ShopingCart() {
 		init();
 	}
 
